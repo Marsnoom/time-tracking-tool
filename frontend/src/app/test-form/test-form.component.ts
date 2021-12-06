@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-test-form',
+  selector: 'kaka',
   templateUrl: './test-form.component.html',
   styleUrls: ['./test-form.component.scss']
 })
