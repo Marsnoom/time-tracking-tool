@@ -1,6 +1,6 @@
 export interface UserModel {
-    id : string | undefined;
-    firtname : string | undefined;
+    id : number | undefined;
+    firstname : string | undefined;
     lastname : string | undefined;
     mail : string | undefined;
     username : string | undefined;

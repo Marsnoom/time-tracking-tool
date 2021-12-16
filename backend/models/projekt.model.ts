@@ -5,7 +5,7 @@ export interface ProjektModel {
     name:string;
     firma:string;
     anzahlMitarbeiter:number;
-    tasks: TaskModel[];
-    estimatedTime:Date;
+    tasks?: TaskModel[];
+    estimatedTime?:Date;
     referenceProjectId:number;
 }
